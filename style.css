@@ -240,6 +240,7 @@ a {
 .alert-demo ul {
     list-style: none;
     width: 20rem;
+    margin-right: 1rem;
 }
 .alert-success {
     background-color: rgb(120, 221, 120);
