@@ -209,7 +209,7 @@ a {
     overflow-x: hidden;
 }
 .container {
-    max-width: 800px;
+    max-width: 1100px;
     margin: auto;
     padding: 0 2rem;
     overflow: hidden;
