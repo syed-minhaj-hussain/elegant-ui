@@ -450,4 +450,27 @@ a {
     justify-content: space-between;
 }
 
-/* overflow-x : hidden */
+/* lists */
+.main-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-body {
+    width: 200px;
+    /* height: 350px; */
+    padding: 1rem;
+    background-color:white;
+    border-radius: 2rem;
+    list-style: none;
+    margin: 1rem;
+}
+.list {
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+    margin: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+}
