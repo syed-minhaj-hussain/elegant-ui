@@ -1,7 +1,7 @@
  :root {
     --primary-color : #7EB6C9;
     --secondary-color : #F3F4F6;
-    --font-size : 65.5%;
+    --font-size : 62.5%;
 }
 html {
     font-size: var(--font-size);
@@ -60,18 +60,18 @@ a {
     flex: 1;
 }
 .header-text {
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: bold;
 }
 .header-para {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
 }
 .header-img {
     width: 450px;
 }
 .btn {
     padding: 0.75rem 1.7rem;
-    font-size: 1.35rem;
+    font-size: 1.6rem;
     margin: 0.4rem;
     border: none;
 }
@@ -86,7 +86,7 @@ a {
 }
 #footer {
     height: 3vh;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -159,7 +159,7 @@ a {
         text-decoration: none;
         color: #333;
         text-transform: capitalize;
-        font-size: 1.25rem;
+        font-size: 1.6rem;
         /* font-weight: 200; */
         list-style: .1rem;
         position: relative;
@@ -222,11 +222,11 @@ a {
     background-color: #fff;
 }
 .install-head {
-    font-size: 2rem;
+    font-size: 4rem;
     text-align: center;
 }
 .install-para {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
 }
 
 /* alert */
@@ -243,25 +243,25 @@ a {
 }
 .alert-success {
     background-color: rgb(120, 221, 120);
-    font-size: 1.25rem;
+    font-size: 1.6rem;
     margin: 0.3rem;
     padding: 0.75rem;
 }
 .alert-danger {
     background-color: rgb(250, 94, 94);
-    font-size: 1.25rem;
+    font-size: 1.6rem;
     margin: 0.3rem;
     padding: 0.75rem;
 }
 .alert-warning {
     background-color: rgb(236, 190, 103);
-    font-size: 1.25rem;
+    font-size: 1.6rem;
     margin: 0.3rem;
     padding: 0.75rem;
 }
 .alert-info {
     background-color: rgb(117, 159, 212);
-    font-size: 1.25rem;
+    font-size: 1.6rem;
     margin: 0.3rem;
     padding: 0.75rem;
 }
@@ -420,7 +420,7 @@ a {
     margin: 1rem;
 }
 .yt-right p {
-    font-size: 1.23rem;
+    font-size: 1.3rem;
 }
 .yt-card-body {
     display: flex;
