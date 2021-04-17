@@ -374,11 +374,13 @@ a {
     display: flex;
     flex-direction: row;
 }
+.card-demo {
+    margin-right: 1.5rem;
+}
 .card {
     width: 200px;
     height: 300px;
     padding: 0.5rem;
-    margin-right: 1.5rem;
 }
 .card-img img {
     width: 100%; 
