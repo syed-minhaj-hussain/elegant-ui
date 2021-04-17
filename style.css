@@ -235,7 +235,7 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 40vh;
 }
 .alert-demo ul {
     list-style: none;
