@@ -213,7 +213,7 @@ a {
     margin: auto;
     padding: 0 2rem;
     overflow: hidden;
-    background-color: coral;
+    /* background-color: coral; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -371,6 +371,10 @@ a {
 
 /* card */
 .main-card {
+    display: flex;
+    flex-direction: row;
+}
+.text-main-card {
     display: flex;
     flex-direction: row;
 }
@@ -541,3 +545,115 @@ a {
     margin: 0.5rem;
 }
 
+/* Media Queries */
+@media (max-width : 889px) {
+/* body {
+    background-color: red;
+}
+.container {
+    background-color: red;
+} */
+.header-text {
+    font-size: 4rem;
+}
+.header-content {
+    padding: 1rem;
+}
+.alert-side {
+    flex-direction: column;
+    height: 60vh;
+}
+.main-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-card-demo {
+    flex-direction: column;
+}
+}
+
+@media (max-width : 770px) {
+    /* body {
+        background-color: pink;
+    }
+    .container {
+        background-color: pink;
+    } */
+    /* .alert-code  {
+        width: 600px;
+        align-self: center;
+        margin-right: 20rem;
+    } */
+    .alert-code  {
+        display: none;
+    }
+    .yt-card-code {
+       display: none;
+     } 
+
+}
+
+@media (max-width : 715px) { 
+    .form-code {
+        margin-right: 10rem;
+
+    }
+    .header-text {
+        font-size: 3rem;
+    }
+    .header-para {
+        font-size: 2rem;
+    }
+    .header-image {
+        display: none;
+    }
+    #header {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+}
+
+@media (max-width : 598px) { 
+.card-code {
+    display: none;
+}
+.main-list {
+    display: flex;
+    flex-direction: column;
+}
+.form-code {
+    display: none;
+}
+.install-code {
+    display: none;
+}
+.navigation-code {
+    display: none;
+}
+}
+@media (max-width : 482px) { 
+    .avatar-code {
+        display: none;
+    }
+}
+@media (max-width : 482px) { 
+    .btn-fill-code {
+        display: none;
+    }
+    .btn-border-demo{
+        flex-wrap: wrap;
+    }
+    .btn-fill-demo{
+        flex-wrap: wrap;
+    }
+    .btn-border-code {
+        display: none;
+    }
+    .avatar-demo{
+        flex-wrap: wrap;
+    }
+}
