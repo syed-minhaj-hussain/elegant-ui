@@ -410,6 +410,13 @@ a {
 }
 
 /* text-card */
+.text-card-demo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
 .text-card {
     padding: 1rem;
     width: 200px;
@@ -418,11 +425,6 @@ a {
     border-radius: 1.25rem;
     background-color: #fff;
     font-size: 1.2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
 }
 
 /* yt-card */
